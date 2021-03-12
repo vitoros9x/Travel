@@ -1,0 +1,71 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+$violet: #ba71da;
+$green: #1bbc9b;
+$beach: #14b9d5;
+$red: #f76570;
+$yellow: #ffd205;
+$textColor: #a79a9d;
+$titleColor: #555555;
+
+:root {
+  --text-color: $textColor;
+  --title-color: $titleColor;
+}
+
+.btn {
+  padding: 12px 25px;
+  border-radius: 50px;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.btn--violet {
+  background: $violet;
+}
+
+.btn--green {
+  background: $green;
+}
+
+.btn--beach {
+  background: $beach;
+}
+
+.btn--red {
+  background: $red;
+}
+
+.btn--yellow {
+  background: $yellow;
+}
+
+sup {
+  font-size: 0.7rem;
+  vertical-align: super;
+}
+
+.label {
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 3px;
+  color: #fff;
+  padding: 0 3px;
+  display: flex;
+  align-items: center;
+}
+
+.label--hot {
+  background: $red;
+}
+
+.label--new {
+  background: $green;
+}
+
+.label--best {
+  background: $beach;
+}
