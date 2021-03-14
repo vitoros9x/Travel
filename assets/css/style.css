@@ -335,11 +335,14 @@ html {
 }
 
 .btn {
-  padding: 12px 25px;
+  display: block;
+  width: max-content;
+  padding: 15px 35px;
   border-radius: 50px;
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
+  color: #fff;
 }
 
 .btn--violet {
@@ -360,6 +363,31 @@ html {
 
 .btn--yellow {
   background: #ffd205;
+}
+
+.btn--c-violet {
+  background: #fff;
+  color: #ba71da;
+}
+
+.btn--c-green {
+  background: #fff;
+  color: #1bbc9b;
+}
+
+.btn--c-beach {
+  background: #fff;
+  color: #14b9d5;
+}
+
+.btn--c-red {
+  background: #fff;
+  color: #f76570;
+}
+
+.btn--c-yellow {
+  background: #fff;
+  color: #ffd205;
 }
 
 sup {
@@ -402,6 +430,23 @@ sup {
   display: block;
   width: 100%;
   height: 5px;
+}
+
+.price {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #555555;
+}
+.price-old {
+  font-size: 2.8rem;
+  color: #a79a9d;
+  margin-right: 5px;
+}
+.price-current {
+  font-size: 2.8rem;
+}
+.price .through {
+  text-decoration: line-through;
 }
 
 .header {
@@ -457,6 +502,7 @@ sup {
 .header-nav__navbar-btn .btn--violet {
   color: #fff;
   margin-left: 25px;
+  padding: 12px 25px;
 }
 .header-nav__subnav {
   position: absolute;
@@ -577,23 +623,23 @@ sup {
 .destination {
   text-align: center;
   padding-bottom: 4.5rem;
+  padding-top: 60px;
 }
 
-.destination__subname {
+.body__subname {
   text-transform: uppercase;
   color: #a79a9d;
   letter-spacing: 0.2rem;
   font-size: 1.4rem;
-  padding-top: 60px;
 }
 
-.destination__heading {
+.body__heading {
   font-size: 3.6rem;
   font-weight: 700;
   color: #555555;
-  padding: 20px 0 50px;
+  padding: 20px 0 40px;
 }
-.destination__heading .underline::after {
+.body__heading .underline::after {
   background: #1bbc9b;
 }
 
@@ -675,6 +721,154 @@ sup {
   font-size: 1.4rem;
   display: block;
   margin: 10px auto 0;
+}
+
+.banner2 {
+  min-height: 23.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.banner2-content {
+  display: flex;
+  align-items: center;
+}
+
+.banner2-title {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #fff;
+}
+.banner2-title .underline::after {
+  background: #f76570;
+}
+
+.banner2-btn {
+  background: #fff;
+  color: #f76570;
+  margin-left: 13rem;
+}
+
+.beach {
+  padding-top: 60px;
+}
+.beach .underline::after {
+  background: #1bbc9b;
+}
+
+.beach__content {
+  padding-right: 1rem;
+}
+.beach__content p {
+  color: #a79a9d;
+  line-height: 2;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+.beach__content .price {
+  margin-bottom: 30px;
+}
+
+.beach__img-slider {
+  padding-top: 54.67%;
+  position: relative;
+}
+.beach__img-slider > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.beach__img-slider-item img {
+  object-fit: cover;
+}
+
+.beach__cdown {
+  display: flex;
+  justify-content: center;
+  transform: translateY(-50%);
+}
+
+.beach__cdown-box {
+  text-align: center;
+  background: #14b9d5;
+  color: #fff;
+  padding: 30px;
+}
+.beach__cdown-box span {
+  display: block;
+}
+
+.beach__cdown-box-number {
+  font-size: 3.5rem;
+}
+
+.beach__cdown-box-text {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.beach__box {
+  display: flex;
+  padding-bottom: 80px;
+}
+
+.beach__box-img {
+  max-width: 50px;
+  width: 100%;
+}
+
+.beach__box-content {
+  margin-left: 2rem;
+}
+.beach__box-content p {
+  color: #a79a9d;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  margin-bottom: 2.6rem;
+}
+.beach__box-content a {
+  font-size: 1.4rem;
+  color: #14b9d5;
+}
+
+.beach__box-content-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #555555;
+  margin-bottom: 25px;
+}
+
+.discover {
+  min-height: 270px;
+  display: flex;
+}
+.discover > div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.discover__subtitle {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+.discover__title {
+  font-size: 3.6rem;
+  font-weight: 700;
+  padding: 20px 0 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
