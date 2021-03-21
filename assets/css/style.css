@@ -160,6 +160,10 @@ img {
   margin: 0 auto;
 }
 
+.container-fw {
+  padding: 0 15px 0 15px;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
